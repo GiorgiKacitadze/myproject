@@ -1,0 +1,483 @@
+*{
+   box-sizing: border-box;
+}
+
+body, ul, p, h1, h2, h3, h4{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@font-face {
+  font-family: 'gm_1';
+  src: url('../fonts/bpg_nino_mtavruli_normal.ttf'); 
+}
+
+
+@font-face {
+  font-family: 'gm_2';
+  src: url('../fonts/achveullbold.ttf'); 
+}
+
+
+@font-face {
+  font-family: 'gm_3';
+  src: url('../fonts/RubikBubbles-Regular.ttf'); 
+}
+
+
+@font-face {
+  font-family: 'gm_4';
+  src: url('../fonts/ProstoOne-Regular.ttf'); 
+}
+
+
+ {
+   font-family: gm_2;
+}
+
+/* navigacia */
+
+
+
+header{
+   background-color: black;
+
+}
+
+
+.navbar{
+   padding: 20px  0px;
+}
+
+.navbar-brand {
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    transition: 1s;
+    font-family: gm_4;
+    }
+
+.navbar-brand:hover{
+      background-color: white;
+      color: red;
+    }
+
+
+
+.nav-link {
+    color: white;
+    transition: 1s;
+    font-family: gm_1;
+    }  
+
+
+.nav-link:hover{
+   color: red;
+}      
+
+.navbar-toggler i{
+   color: white;
+}
+
+
+.meniu{
+   display: flex;
+   margin-left: auto;
+   align-items: center;
+}
+
+.sms i{
+   font-size: 23px;
+   color: white;
+}
+
+.sms {
+   padding: 0px 5px;
+}
+
+.menu_img img{
+   width: 100%;
+}
+
+.menu_img {
+   padding: 0px 5px;
+}
+
+
+.menu_gamowera{
+   padding: 0px 5px;
+}
+
+.menu_gamowera a{
+   background-color: red;
+   color: white;
+   text-decoration: none;
+   padding: 5px 10px;
+   border-radius: 5px;
+   transition: 1s;
+   font-family: gm_1;
+       display: block;
+    min-width: 120px;
+    text-align: center;
+
+}
+
+.menu_gamowera a:hover{
+   color: red;
+   background-color: white;
+}
+
+
+/*სათაური რაზე ვდგავართ*/
+
+.about {
+   background-color: rgb(18 34 45 );
+}
+
+
+.about_h2{
+padding: 20px 0px 16px 0px;
+}
+   
+.about_h2 h2{
+  text-align: center;
+  color: white;
+  font-family: gm_1;
+
+}
+
+
+
+/*login links*/
+
+
+.login-links{
+   text-align: center;
+   padding-top: 30px;
+   padding-bottom: 30px;
+
+}
+
+.login-links a{
+   color: red;
+   text-decoration-color: white;
+   font-family: gm_1;
+   font-size: 20px;
+}
+
+.active, .login_1:hover {
+  background-color: white;
+  
+}
+
+
+
+.login-links span{
+   color: white;
+   font-weight: bolder;
+   font-size: 25px;
+}
+
+
+
+
+/* ფორმ რეგისტრაცია */
+
+.login{
+   background-color: black;
+}
+
+
+.form-group{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+
+ .form-group input{
+   width: 100%;
+   padding: 15px 10px;
+ }
+
+ .login_p{
+   padding-top: 30px;
+   padding-bottom: 120px;
+}
+
+.form-check-label{
+   color: white;
+   font-family: gm_1;
+}
+ 
+
+ form{
+     border: 2px solid red;
+    padding: 50px 30px;
+    width: 60%;
+    margin: 0 auto; 
+ }
+
+
+ input:focus-visible {
+    outline: none;
+}
+
+.form-control:focus {
+    color: white;
+    background-color:rgb(30 39 45);
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.form-control{
+   background-color:rgb(30 39 45) ;
+   border: none;
+}
+
+.form-flex{
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+
+.form-flex a{
+   color: red;
+   text-decoration: none;
+   font-family: gm_1;
+}
+
+.form-check-label{
+   color: red;
+}
+
+
+.btn-primary {
+    color: white;
+    background-color: red;
+    border: none;
+    font-family: gm_1;
+}
+
+
+.btn-primary:hover {
+    color: red;
+    background-color: white;
+    
+}
+
+
+/*footer*/
+
+.footer_one{
+   background-color: #222240;
+   border-bottom: 1px solid silver;
+}
+
+
+.footer_one_1 p{
+  color: white;
+}
+
+
+
+.footer_one_logo_p {
+   margin-top: 30px;
+   margin-bottom: 20px;
+}
+
+.footer_one_logo_p a{
+   text-decoration: none;
+   background-color: red;
+   padding: 10px;
+   color: white;
+   text-decoration: none;
+   border-radius: 10px;
+}
+
+
+.footer_one_span_p{
+   display: flex;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+
+.footer_one_span_1{
+   margin-right: 5px;
+   background-color: red;
+   border-radius: 50%;
+   padding: 17px 14px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.footer_one_span_1 a{
+   color: white;
+}
+
+.footer_one_nav_p ul{
+   display: flex;
+   list-style-type: none;
+   flex-wrap: wrap;
+}
+
+.footer_one_nav_p ul li{
+   display: inline-block;
+}
+
+.footer_one_nav_p ul li a{
+   display: block;
+   margin-right: 20px;
+   color: white;
+   text-decoration: none;
+}
+
+
+.footer_one_nav_p{
+   margin-top:20px ;
+   margin-bottom: 20px;
+}
+
+.footer_one_nav_img{
+   display: flex;
+   flex-wrap: wrap;
+
+}
+
+.fimg{
+   width: 150px;
+   border: 1px solid white;
+   margin-right: 10px;
+   cursor: pointer;
+   margin-top: 10px;
+}
+
+
+
+.footer_one_nav_img img{
+   width: 100%;
+}
+
+
+
+.footer_one_nav_p_2 {
+   margin-bottom: 50px;
+}
+
+
+.footer_one_nav_p_2 ul{
+    display: flex;
+   list-style-type: none;
+   flex-wrap: wrap;
+   margin-top: 20px;
+}
+
+
+
+.footer_one_nav_p_2 ul li a{
+   display: block;
+   padding: 0px 10px;
+   color: white;
+   text-decoration: none;
+   display: flex;
+   margin-top: 20px;
+
+
+}
+
+
+
+.footer_nav_border{
+   display: block;
+   border: 1px solid white;
+   box-shadow: 2px 2px 2px red;
+   margin-left: 10px;
+
+   
+}
+
+
+
+
+
+footer{
+   background-color:#222240 ;
+}
+
+.footer_last_1{
+   margin-bottom: 10px;
+   margin-top: 40px;
+   color: white;
+}
+
+
+.footer_last_2{
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+.footer_last_2_member{
+   padding: 0px 10px;
+
+}
+.footer_last_2_member a{
+   background-color: red;
+   color: white;
+   font-weight: bolder;
+   text-decoration: none;
+   padding: 10px;
+   border-radius: 10px;
+   transition: 1s;
+   font-family: gm_1;
+}
+
+.footer_last_2_member a:hover{
+   background-color: white;
+   color: red;
+}
+
+
+.footer_last_2 p{
+   color: white;
+}
+
+
+.footer_last_2_shesvla{
+   color: red;
+
+}
+
+
+
+@media screen and (max-width: 991px){
+   .footer_last_2{
+      display: flex;
+      justify-content:normal;
+      flex-direction: column;
+
+   }
+
+   .footer_last_2_member{
+      margin-top: 20px;
+   }
+
+   form{
+      width: 90%;
+   }
+}
+
+
